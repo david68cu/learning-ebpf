@@ -6,4 +6,13 @@ vmlinux.h
 chapter6/hello-verifier
 chapter5/find-map
 chapter5/hello-buffer-config
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
 
